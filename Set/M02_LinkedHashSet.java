@@ -11,6 +11,15 @@ public class M02_LinkedHashSet {
         System.out.println(lhs);
         System.out.println(lhs.contains(598));
 
+        lhs.remove(598);
+        System.out.println(lhs);
+
+        System.out.println(lhs.contains(598));
+
+        System.out.println("class : "+lhs.getClass());
+        System.out.println("size : "+lhs.size());
+        lhs.removeAll(lhs);
+        System.out.println(lhs);
     }
 }
 /*
